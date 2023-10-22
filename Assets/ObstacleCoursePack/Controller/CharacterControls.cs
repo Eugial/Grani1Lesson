@@ -197,4 +197,8 @@ public class CharacterControls : MonoBehaviour {
 			canMove = true;
 		}
 	}
+	public void ChangeGravityDirection ()
+	{
+		gravity = -gravity;
+	}
 }
